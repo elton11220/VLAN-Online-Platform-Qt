@@ -1,0 +1,107 @@
+*{
+    outline:0px;
+}
+
+#mainLogoBox{
+    border-radius:6px;
+    background-image:url(:/images/img-logo_s);
+}
+
+#logBox{
+    background-color:transparent;
+    border:none;
+}
+
+#sysLabel{
+    border:1px solid;
+    border-radius:4px;
+}
+
+#MainWindow{
+    background-color:white;
+    border-top-style:2px soild blue;
+}
+
+#serverList{
+    border:none;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius: 6px;
+}
+
+#serverList::item:selected{
+    background:#ccc;
+}
+
+#btnAddServer,#btnDelServer{
+    color:#fff;
+    font-family: 'Helvetica';
+    border:1px solid #03cbbe;
+    background-color:#03cbbe;
+}
+
+#btnAddServer{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom:1px solid #ccc;
+}
+
+#btnDelServer{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+#btnAddServer::pressed{
+    background-color:#03B4BE;
+    border:1px solid #03B4BE;
+    border-bottom:1px solid #ccc;
+}
+
+#btnDelServer::pressed{
+    background-color:#03B4BE;
+    border:1px solid #03B4BE;
+}
+
+#btnUpdServerList{
+    border:2px solid #ccc;
+    color:#a9a9a9;
+    border-radius:10px;
+    background-color:#f1f3f5;
+}
+
+#btnUpdServerList::pressed{
+    background-color:#dcdcdc;
+}
+
+
+QTabWidget::pane {
+    background: transparent;
+    border-top: 3px solid rgb(0, 160, 230);
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius: 6px;
+}
+QTabWidget::tab-bar {
+    border: none;
+}
+QTabBar::tab {
+    border: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 30);
+    height: 28px;
+    min-width: 85px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+QTabBar::tab:hover {
+    background: #ccc;
+    opacity:0.4;
+}
+QTabBar::tab:selected {
+    color: white;
+    background: rgb(0, 160, 230);
+}

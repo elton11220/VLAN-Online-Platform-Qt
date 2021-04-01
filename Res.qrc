@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="img-logo">icon.png</file>
+        <file alias="img-logo_s">icon_s.png</file>
+        <file alias="icon_PlayerCount">renshu.png</file>
+        <file alias="icon_Version">versions.png</file>
+        <file alias="icon_Ping">yanchi.png</file>
+    </qresource>
+    <qresource prefix="/others">
+        <file alias="mainSheet">style.qss</file>
+    </qresource>
+</RCC>
